@@ -1,0 +1,70 @@
+nav a {
+    text-decoration: none;   /* Remove the underline from links */
+    color: #000;             /* Set the text color */
+    padding: 10px 20px;      /* Add padding to the links */
+    flex: 1 1 auto;          /* Allow the links to grow and shrink */
+    text-align: center;      /* Center the text within the links */
+    margin: 5px;             /* Optional: Margin around the links */
+    font-weight: bold;
+    color: cadetblue;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;  /* Optional: Background color on hover */
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+    font-weight: bold;
+  }
+  p {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+#about {
+  display: flex; 
+}
+#about img {
+   width: 175px; 
+   height: 225px; 
+}
+#about p {
+  margin-left: 50px;
+}
+  #involved {
+    overflow:hidden;
+  }
+  #involved p {
+    display: flex;
+
+  }
+
+  #img {
+    display: flex;
+    width: 175px;
+    height: 225px;
+  }
+
+   
+   #img2 {
+    display: flex;
+    width: 175px;
+    height: 225px;
+   }
+   #img3 {
+    display:flex;
+    width: 175px;
+    height: 225px;
+   }
+
+   h2 {
+    text-align: center;
+    color: darkcyan;
+   }
+   ul {
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
